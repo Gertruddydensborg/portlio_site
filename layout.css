@@ -1,0 +1,9 @@
+@media (min-width: 700px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
