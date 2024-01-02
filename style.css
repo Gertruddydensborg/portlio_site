@@ -70,7 +70,7 @@ body {
   min-height: 100vh;
   display: block;
   z-index: 98;
-  background-color: #f3eee3;
+  background-color: #dacfc3;
   padding-top: 120px;
   transition: 0.4s;
 }
@@ -87,16 +87,20 @@ body {
   text-align: center;
   padding: 12px 16px;
   background-color: whitesmoke;
-  color: black;
+  color: #c6342f;
   text-decoration: none;
-  border: solid 2px #000000;
+  border: solid 2px #dacfc3;
+  border-radius: 15px;
   font-family: "open sans";
+  font-size: 20px;
   font-weight: lighter;
 }
 
 .mobile-nav a:hover {
-  background-color: #000000;
+  background-color: #c6342f;
   color: #ffffff;
+  border: solid 2px #c6342f;
+  border-radius: 15px;
 }
 
 header {
@@ -112,7 +116,7 @@ header {
     align-items: center;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 700px) {
     .container a {
       text-decoration: none;
       color: black;
@@ -142,7 +146,7 @@ nav a:hover {
 /**FOOTER**/
 
 footer {
-  background-color: whitesmoke;
+  background-color: #dacfc3;
 }
 
 .logo_footer {
@@ -166,7 +170,7 @@ footer {
 }
 
 li a {
-  background-color: whitesmoke;
+  background-color: #dacfc3;
   color: #c6342f;
   text-decoration: none;
   font-family: open sans;
@@ -214,7 +218,7 @@ p {
 /**FORSIDE**/
 
 main {
-  background-color: #f3eee3;
+  background-color: whitesmoke;
 }
 /* 
 .billede_container {
@@ -258,3 +262,17 @@ main {
   display: grid;
   order: 2;
 } */
+
+/**02**/
+
+.tema {
+  border: 1 solid whitesmoke;
+  background: linear-gradient(to bottom, #fedfdf, whitesmoke);
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  z-index: 99;
+}
+
+.title {
+}
