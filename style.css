@@ -112,7 +112,7 @@ header {
     align-items: center;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 600px) {
     .container a {
       text-decoration: none;
       color: black;
@@ -154,11 +154,15 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .social_icons {
   font-size: 25px;
-  margin: 15px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 li a {
@@ -174,11 +178,37 @@ li a {
 li {
   margin-bottom: 15px;
   margin-top: 10px;
+  list-style-type: none;
 }
 
 li a:hover {
   margin: 35px;
   font-weight: bolder;
+}
+
+.mobil,
+.email {
+  font-family: open sans;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.kontakt {
+  order: 2;
+  font-family: open sans;
+  font-weight: lighter;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.kontakt h3,
+p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.farvet_ord {
+  color: #c6342f;
 }
 
 /**FORSIDE**/
